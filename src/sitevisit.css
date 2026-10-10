@@ -187,3 +187,5 @@ footer { border-top: 1px solid var(--line); padding-block: 40px 100px; backgroun
   .sticky .btn { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+.skyline img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.siq { min-height: 100vh; }
